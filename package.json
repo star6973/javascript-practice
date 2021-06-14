@@ -1,0 +1,23 @@
+{
+  "name": "javascript_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "001_배열의삭제.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/star6973/javascript_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/star6973/javascript_practice/issues"
+  },
+  "homepage": "https://github.com/star6973/javascript_practice#readme",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^3.2.2",
+    "prompt": "^1.1.0"
+  }
+}
