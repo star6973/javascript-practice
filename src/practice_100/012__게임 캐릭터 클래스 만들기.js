@@ -1,4 +1,4 @@
-const Wizard = class Wizard {
+class Solution {
     constructor(h, m, a) {
         this.health = h;
         this.mana = m;
@@ -10,6 +10,4 @@ const Wizard = class Wizard {
     }
 }
 
-const x = new Wizard(545, 210, 10);
-console.log(x.health, x.mana, x.armor);
-x.attack();
+exports.solution = Solution;
