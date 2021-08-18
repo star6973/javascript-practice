@@ -11,9 +11,12 @@ function isPrime(num) {
     else return false;
 }
 
-var n = prompt("입력: ");
-if (isPrime(n)) {
-    console.log("YES");
-} else {
-    console.log("NO");
+function solution(n) {
+    if (isPrime(n)) {
+        return true;
+    } else {
+        return false;
+    }
 }
+
+exports.solution = solution;
